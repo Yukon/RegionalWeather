@@ -1,0 +1,45 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Eclipse stuff
+.classpath
+.project
+.settings/
+
+# netbeans
+nbproject
+
+# maven
+/target/
+/*/target/
+
+# gradle
+.gradle/
+
+# vim
+.*.sw[a-p]
+
+# various other potential build files
+/build/
+/*/build/
+/buildassets/map_*.txt
+/bin/
+/*/bin/
+/dist/
+/*/dist/
+/*/manifest.mf
+/release
+
+# intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
